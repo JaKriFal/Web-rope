@@ -1,6 +1,7 @@
 #mainbox {
     display: flex;
     background-color: burlywood;
+    justify-content: center;
 
 }
 
@@ -36,3 +37,40 @@
     border-style: groove;
     height: 6.5rem;
 }
+
+/* HERE BE NAVBAR */
+nav {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    /* remove bullet style */
+    list-style: none;
+    display: flex;
+}
+nav h3 {
+    margin-left: 2em;
+}
+nav ul li {
+    /* remove bullet style */
+    list-style: none;
+    display: flex;
+    margin: 2em 2em 2em 2em;
+}
+
+footer {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#statbox h2 {
+    margin-left: 0.5em;
+}
+#statbox p {
+    margin-left: 2em;
+}
+
