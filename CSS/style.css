@@ -1,8 +1,38 @@
+#mainbox {
+    display: flex;
+    background-color: burlywood;
+
+}
+
+#infobox {
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 15rem;
+    padding: 2rem;
+    background-color: burlywood;
+
+}
+
 #mapbox {
     color: blue;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 #mapbox img {
     height: 32rem;
     width: auto;
+    border-style: groove;
+}
+
+#statbox {
+    background-color: bisque;
+    border-style: groove;
+    height:25rem;
+}
+
+#actionbox {
+    background-color: aquamarine;
+    border-style: groove;
+    height: 6.5rem;
 }
