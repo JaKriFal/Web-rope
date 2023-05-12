@@ -20,7 +20,7 @@
     padding: 2rem 2rem 2rem 2rem;
 }
 
-#mapbox img {
+#hexbox {
     height: 32rem;
     width: auto;
     border-style: groove;
@@ -72,5 +72,20 @@ footer {
 }
 #statbox p {
     margin-left: 2em;
+}
+
+/* Attach styles to hover and focus events */
+.ex5 .hex:hover {
+    background-color: black;
+}
+.ex5 .hex:hover .hexinner,
+.ex5 .hex:focus .hexinner {
+    /* We have created the hexagon via clip-path so we have to simulate
+    a border using two nested elements. We can set the border colour
+    using "background" and the border width using "margin" */
+    background: rgb(249, 188, 38);!important;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
 }
 
