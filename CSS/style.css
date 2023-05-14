@@ -33,14 +33,14 @@
 }
 
 #actionbox {
-    background-color: aquamarine;
+    background-color: bisque;
     border-style: groove;
     height: 6.5rem;
 }
 
 /* HERE BE NAVBAR */
 nav {
-    background-color: lightblue;
+    background-color: sienna;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,7 @@ nav ul li {
 }
 
 footer {
-    background-color: lightblue;
+    background-color: sienna;
     display: flex;
     align-items: center;
     justify-content: center;
